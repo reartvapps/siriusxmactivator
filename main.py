@@ -1,3 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Python in HTML</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/pyscript@latest/dist/pyscript.js"></script>  
+
+</head>
+
+<body>
+
+    <p id="result"></p> 
+
+
+
+    <script type="text/python">
+
 import requests
 import uuid
 
@@ -393,3 +413,12 @@ print("createAccount")
 createAccount()
 print("update_2")
 update_2()
+
+
+    </script>
+
+
+
+</body>
+
+</html>
