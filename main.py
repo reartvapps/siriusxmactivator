@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Success</title>
-    <script src="https://cdn.jsdelivr.net/pyodide/v0.21.3/full/pyodide.js"></script>
-<script>
-  (async () => { // create anonymous async function to enable await
-    const pyodide = await loadPyodide();
-    console.log(pyodide.runPython(`
-import sys
-sys.version
 import requests
 import uuid
 
@@ -404,12 +393,6 @@ print("createAccount")
 createAccount()
 print("update_2")
 update_2()
-
-    `));
-  })(); // call the async function immediately
-</script> 
-</head>
-<body>
 <p>Success</p>
 </body>
 
